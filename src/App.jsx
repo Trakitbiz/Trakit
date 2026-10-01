@@ -272,7 +272,7 @@ const AuthScreen = ({onAuth}) => {
             <div style={{textAlign:"center",marginTop:18,fontSize:13,color:C.muted}}>
               Don't have an account?{" "}
               <a
-                href={https://usetrakit.store/}
+                href="https://usetrakit.store/"
                 style={{color:C.rose,fontWeight:700,textDecoration:"none"}}
                 target="_self"
               >
