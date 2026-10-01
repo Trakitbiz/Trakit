@@ -159,7 +159,7 @@ const ResetPasswordScreen = ({ onDone }) => {
 // AUTH SCREEN — Login + Forgot Password only
 // Signup is handled on the landing page (with payment)
 // ══════════════════════════════════════════════════════════════════════════
-const LANDING_URL = process.env.REACT_APP_LANDING_URL || "https://trakit.vercel.app";
+const LANDING_URL = process.env.REACT_APP_LANDING_URL || "https://usetrakit.store/";
 
 const AuthScreen = ({onAuth}) => {
   const [mode,setMode]       = useState("login");   // "login" | "forgot"
@@ -272,7 +272,7 @@ const AuthScreen = ({onAuth}) => {
             <div style={{textAlign:"center",marginTop:18,fontSize:13,color:C.muted}}>
               Don't have an account?{" "}
               <a
-                href={LANDING_URL}
+                href={https://usetrakit.store/}
                 style={{color:C.rose,fontWeight:700,textDecoration:"none"}}
                 target="_self"
               >
